@@ -76,6 +76,10 @@ header div ul li p {
 header div ul li a {
   font-size: 2rem;
   padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(76 118 144);
+  color: white;
 }
  
 /* Header end */  
