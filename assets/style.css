@@ -31,10 +31,6 @@ img {
 nav {
   background-color: #fff;
 }
-
-nav div {
-
-}
  
 /* Navigation end */ 
  
@@ -52,6 +48,14 @@ header div ul {
   width: 50%;
   display: flex;
   justify-content: center;
+}
+
+header div ul li {
+
+}
+
+header div ul li a {
+
 }
  
 /* Header end */  
