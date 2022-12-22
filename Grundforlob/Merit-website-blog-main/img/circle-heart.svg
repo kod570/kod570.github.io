@@ -1,0 +1,29 @@
+<svg id="Circle_Button_" data-name="Circle Button " xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #edebdf;
+      }
+
+      .cls-2 {
+        fill: #fcfcfc;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #cf755a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.667px;
+      }
+    </style>
+  </defs>
+  <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" class="cls-1" width="48" height="48" rx="24"/>
+  <g id="Icon_" data-name="Icon " transform="translate(14 14)">
+    <rect id="Area_ICON:feather_heart_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [ICON:feather/heart][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" class="cls-2" width="20" height="20"/>
+    <g id="Icon" transform="translate(-1 -1)">
+      <path id="Path" class="cls-3" d="M17.367,3.842a4.584,4.584,0,0,0-6.484,0L10,4.725l-.883-.883a4.585,4.585,0,0,0-6.484,6.483l.884.883L10,17.692l6.483-6.484.884-.883A4.583,4.583,0,0,0,17.367,3.842Z" transform="translate(1 1)"/>
+    </g>
+  </g>
+</svg>

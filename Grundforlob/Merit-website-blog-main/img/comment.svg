@@ -1,0 +1,22 @@
+<svg id="Icon_" data-name="Icon " xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcfcfc;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.667px;
+      }
+    </style>
+  </defs>
+  <rect id="Area_ICON:feather_message-square_SIZE:MEDIUM_STYLE:STYLE1_" data-name="Area [ICON:feather/message-square][SIZE:MEDIUM][STYLE:STYLE1]" class="cls-1" width="20" height="20"/>
+  <g id="Icon" transform="translate(-1 -1)">
+    <path id="Path" class="cls-2" d="M17.5,12.5a1.667,1.667,0,0,1-1.667,1.667h-10L2.5,17.5V4.167A1.667,1.667,0,0,1,4.167,2.5H15.833A1.667,1.667,0,0,1,17.5,4.167Z" transform="translate(1 1)"/>
+  </g>
+</svg>

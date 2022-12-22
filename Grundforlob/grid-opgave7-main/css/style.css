@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+} 
+
+.image h4 {
+    color: black;
+}
+
+.extra h4 {
+    color: black;
+}
+
+.banner h4 {
+    color: black;
+}
+
+#section-website {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#grid-container {
+    margin: 20px 0px 20px 0px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px 150px 150px 150px 150px 200px;
+    grid-template-areas: 
+    "header header menu menu menu menu menu menu"
+    "hero hero hero hero hero hero hero hero"
+    "hero hero hero hero hero hero hero hero"
+    "hero hero hero hero hero hero hero hero"
+    "main main main main . . image image"
+    "main main main main . . extra extra"
+    "banner banner banner banner banner banner banner banner"
+    "banner banner banner banner banner banner banner banner";
+}
+
+div {
+ display: flex;
+}
+
+.header {
+    background-color: #0F1629;
+    grid-area: header;
+}
+
+.menu {
+    background-color: #EF3D4D;
+    grid-area: menu;
+}
+
+.hero {
+    background-color: #4C86C6;
+    grid-area: hero;
+}
+
+.main{
+    background-color: #24344B;
+    grid-area: main;
+}
+
+.image {
+    background-color: #C1E4E6;
+    grid-area: image;
+}
+
+.extra {
+    background-color: #4DBD97;
+    grid-area: extra;
+}
+
+.banner {
+    background-color: #FFD169;
+    grid-area: banner;
+}
+
+
+/* media start */
+@media screen and (max-width: 1024px) {
+    #grid-container {
+        display: grid;
+        grid-template-rows: 100px 150px 150px 150px 100px 150px 150px 150px;
+        grid-template-areas: 
+        "header header header header header header header header"
+        "hero hero hero hero hero hero hero hero"
+        "hero hero hero hero hero hero hero hero"
+        "hero hero hero hero hero hero hero hero"
+        "menu menu main main main main main main"
+        "menu menu main main main main main main"
+        "menu menu banner banner banner banner banner banner"
+        "menu menu extra extra extra extra image image";
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #grid-container {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 100px 100px 150px 150px 150px 150px 150px 150px 150px;
+        grid-template-areas: 
+        "header header"
+        "menu menu"
+        "hero hero"
+        "hero hero"
+        "main main"
+        "main main"
+        "banner banner"
+        "extra extra"
+        "image image";
+    }
+}
+/* media end */

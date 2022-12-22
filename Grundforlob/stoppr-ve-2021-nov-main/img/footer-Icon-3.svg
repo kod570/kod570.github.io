@@ -1,0 +1,29 @@
+<svg id="Icon_" data-name="Icon " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #004eff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <rect id="Area_ICON:feather_smartphone_SIZE:LARGE_STYLE:STYLE1_" data-name="Area [ICON:feather/smartphone][SIZE:LARGE][STYLE:STYLE1]" class="cls-1" width="24" height="24"/>
+  <g id="Icon" transform="translate(5 2)">
+    <rect id="Rect" class="cls-2" width="14" height="20" rx="2" transform="translate(0 0)"/>
+    <line id="Line" class="cls-3" x2="0.01" transform="translate(7 16)"/>
+  </g>
+</svg>

@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Navigation start */
+
+nav {
+  background-color: grey;
+}
+
+nav section {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav section ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav section ul li {
+  padding: 0px 10px 0px 10px;
+}
+
+nav section li a {
+  color: black;
+}
+
+nav section a button {
+  border: none;
+  padding: 15px 45px 15px 45px;
+  background-color: #ebebeb;
+}
+
+/* Navigation end */
+
+/* Header start */
+
+header {
+  background-color: grey;
+}
+
+header section {
+  max-width: 1080px;
+  margin: auto;
+}
+
+/* Header end */
+
+/* main start */
+
+main {
+  background-color: #1f1f1f;
+}
+
+main section {
+  max-width: 1080px;
+  margin: auto;
+}
+
+/* main end */
+
+/* footer start */
+
+footer {
+  background-color: #1f1f1f;
+}
+
+main section {
+  max-width: 1080px;
+  margin: auto;
+}
+
+/* footer end */
+
+/* media start */
+
+/* media end */

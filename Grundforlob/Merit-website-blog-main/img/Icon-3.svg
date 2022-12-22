@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcfcfc;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_" data-name="Icon " transform="translate(0)">
+    <rect id="Area_ICON:feather_instagram_SIZE:LARGE_STYLE:STYLE1_" data-name="Area [ICON:feather/instagram][SIZE:LARGE][STYLE:STYLE1]" class="cls-1" width="24" height="24" transform="translate(0)"/>
+    <g id="Icon" transform="translate(2 2)">
+      <rect id="Rect" class="cls-2" width="20" height="20" rx="5"/>
+      <path id="Path" class="cls-2" d="M16,11.37A4,4,0,1,1,12.63,8,4,4,0,0,1,16,11.37Z" transform="translate(-2 -2)"/>
+      <line id="Line" class="cls-2" x2="0.01" transform="translate(15.5 4.5)"/>
+    </g>
+  </g>
+</svg>

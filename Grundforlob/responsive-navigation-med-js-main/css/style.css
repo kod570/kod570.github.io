@@ -1,0 +1,122 @@
+*,*::before,*::after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-size: 62.5%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* navigation start */
+
+nav {
+    background-color: tomato;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 60%;
+}
+
+#nav-links li {
+    padding: 0px 10px;
+}
+
+#nav-links li a {
+    text-decoration: none;
+    color: turquoise;
+    font-size: 2.5rem;
+}
+
+#nav-links li:last-child {
+    margin-left: auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+label {
+    display: none;
+}
+
+label i {
+    font-size: 2.5rem;
+}
+
+.fa-bars {
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.fa-times {
+    display: none;
+    color: blue;
+}
+
+/* navigation end */
+
+/* media screen start */
+
+@media screen and (max-width: 768px) {
+    #nav-links{
+        display: none;
+    }
+    label {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .fa-bars {
+        padding: 0;
+    }
+    .fa-times {
+        display: none;
+    }
+    .active #nav-links,
+    .active .fa-times {
+        display: block;
+    }
+    .active .fa-bars {
+        display: none;
+    }
+    .active #nav-links li:last-child {
+        margin-left: 0;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .active #nav-links {
+        width: 100%;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: blue;
+    }
+}
+
+/* media screen end */

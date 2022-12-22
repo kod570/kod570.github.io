@@ -1,0 +1,157 @@
+*,*::before,*::after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-size: 62.5%;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url("../img/DSC08790.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    padding: 50px;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* aside start */
+
+main aside {
+    min-height: 80vh;
+    background-image: url("../img/DSC08790.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+}
+
+main aside h1 {
+    font-size: 4rem;
+    color: black;
+}
+
+main aside h1::first-letter{
+    text-transform: uppercase;
+}
+
+main aside p:nth-child(2) {
+    color: black;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+main aside p:nth-child(3) {
+    color: black;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+main aside form {
+    margin-top: 20px;
+}
+
+main aside form input{
+    background-color: transparent;
+    padding: 10px 40px 10px 40px !important;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+
+/* aside end */
+
+
+/* div start */
+
+#right-side {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 10px gray; 
+}
+
+#right-side form {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form div {
+    width: 100%;
+}
+
+label {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 15px !important;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+}
+
+#right-side form input[type="submit"] {
+    background-color: #348649;
+    border: 1px solid;
+    color: #fff;
+}
+
+.first-name {
+    padding: 10px 0px 10px 0px;
+}
+
+.last-name {
+    padding: 10px 0px 10px 0px;
+}
+
+#firstname-container {
+    max-width: 45%;
+    width: 100%;
+}
+
+#lastname-container {
+    max-width: 45%;
+    width: 100%;
+}
+
+/* div end */

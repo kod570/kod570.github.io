@@ -1,0 +1,119 @@
+*,*::before,*::after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-size: 62.5%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#faq-fomular {
+    background-color: #E5DFD7;
+    padding-top: 50px;
+}
+
+#faq-fomular div {
+    margin: 20px auto;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq-fomular div header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+#faq-fomular div header h4 {
+    padding: 0px 10px 0px 10px;
+}
+
+#faq-fomular div header button {
+    margin-right: 10px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#faq-fomular div article{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+#faq-fomular div article h5 {
+    padding: 0px 15px 0px 15px;
+}
+
+#faq-fomular div article p {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+#faq-fomular div article {
+    display: none;
+}
+
+.active {
+    background-color: #435061;
+    border-radius: 10px;
+}
+
+#faq-fomular .active header {
+    border-bottom: 1px solid #E7BE7E;
+}
+
+.active h4 {
+    color: #E7BE7E;
+}
+
+#faq-fomular .active button {
+    background-color: #E7BE7E;
+    border: 1px solid white;
+}
+
+.active h5 {
+    color: white;
+}
+
+.active article p {
+    color: white;
+}
+
+#faq-fomular .active article{
+    display: block;
+}

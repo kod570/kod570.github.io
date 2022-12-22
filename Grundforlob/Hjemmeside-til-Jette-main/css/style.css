@@ -1,0 +1,924 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+/* navigation start */
+nav {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 24px;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  padding: 25px;
+  height: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 22px;
+  cursor:pointer;
+}
+
+nav img{
+  height: 75px;
+  padding: 5px;
+  float: left;
+  clear: both;
+}
+
+.here {
+  background-color: rgba(22, 152, 37, 1);
+  color: white;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdown a {
+  height: 100%;
+}
+
+#dropdown-content {
+  margin-top: 24px;
+  padding: 0px;
+  width: 155.34px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#dropdown-content a {
+  color: black;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
+#select {
+  display: none;
+}
+
+/* navigation slut */
+
+/* header forside start */
+
+header {
+  background-image: url(../img/light-sky-clouds-675977.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+header div {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#headersection img {
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+#headersection {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#headersection div img {
+  width: 35%;
+  margin-top: 40px;
+}
+
+#headersection a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+header p {
+  padding-top: 30px;
+  font-size: 29px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+header a {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: rgba(22, 152, 37, 1);
+  color: white;
+}
+
+/* header forside slut */
+
+/* header-alle sider start */
+
+h1 {
+  font-size: 75px;
+}
+
+.headeralle {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  color: rgba(22, 152, 37, 1);
+}
+
+/* header-alle sider slut */
+
+/* forside css start */
+
+#welcometo {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(22, 152, 37, 1);
+}
+
+#welcometo img {
+  height: 300px;
+}
+
+#picture-of-kindergarden {
+  padding: 50px;
+}
+
+#picture-of-kindergarden h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box1 {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(163, 163, 163);
+}
+
+#white-box1 article {
+  width: 50%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+#white-box1 img {
+  width: 50%;
+  object-fit: cover;
+}
+
+#picture-over-footer ul {
+  margin-left: 20px;
+}
+
+#picture-over-footer {
+  background-image: url("/img/billede-over-footer1.png");
+  padding: 80px 10px;
+}
+
+#picture-over-footer h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box2 {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#apply{
+  background-color: white;
+  width: 100%;
+  padding: 60px;
+  font-size: 30px;
+}
+
+#applyimage{
+  background-color: black;
+}
+
+#white-box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#picture-over-footer a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: rgba(22, 152, 37, 1);
+  padding: 8px 8px;
+  margin: 20px;
+  width: 165px;
+  text-align: center;
+}
+
+#activites {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#activites h2 {
+  text-align: center;
+  color: rgba(22, 152, 37, 1);
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#activites h2::first-letter {
+  text-transform: uppercase;
+}
+
+#activites-1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#activites-1 section {
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px -4px;
+}
+
+#activites-1 section img {
+  max-width: 500px;
+  max-height: 375px;
+  border-radius: 10px 10px 0px 0px;
+}
+#activites-1 h4::before {
+  content: "";
+  position: relative;
+}
+
+#activites-1 h4 {
+  margin: 10px 0px 10px 10px;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+
+#activites-1 p {
+  margin: 10px 0px 10px 10px;
+  font-size: 1.2rem;
+}
+
+#activites-1 a {
+  display: block;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+#activites-1 a span {
+  margin-right: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  bottom: 2px;
+}
+
+.activites-p {
+  margin: 0px !important;
+  position: relative;
+  left: 300px;
+  max-width: fit-content;
+}
+
+.color {
+  color: rgba(22, 152, 37, 1);
+}
+
+/* forside css slut */
+
+/* Om-os side start */
+
+/* Om-os side slut */
+
+/* holdet side start */
+
+#holdet {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 45px;
+  color: rgba(22, 152, 37, 1);
+}
+
+#the-board {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+#the-board .big {
+  width: 35%;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+#the-board .big img {
+  width: 100%;
+}
+
+#the-board .small {
+  width: 25%;
+}
+
+#the-board .small img {
+  width: 100%;
+}
+
+#workers {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+#workers div {
+  width: 35%;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+#workers div img {
+  width: 100%;
+}
+
+#workers div p {
+  margin-top: 30px;
+}
+
+/* holdet side slut */
+
+/* vedtaegter side start */
+
+#politics {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#politics h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  margin: 20px 0px 10px 0px;
+}
+
+#politics h1::first-letter {
+  text-transform: uppercase;
+}
+
+#politics-1 {
+  padding: 10px;
+}
+
+#politics-1 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politics-10 {
+  padding: 10px;
+}
+
+#politics-10 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+.articles-of-association {
+  padding: 10px;
+}
+
+.articles-of-association h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politics-20 {
+  padding: 10px 10px 30px 10px;
+}
+
+#politics-20 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+/* vedtaegter side slut */
+
+/* billeder side start */
+
+#gallerylink {
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+#gallerylink li {
+  list-style-type: none;
+}
+
+#gallerylink a {
+  display: block;
+  width: 175px;
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#gallery h3 {
+  margin-top: 15px;
+  padding: 25px;
+  font-size: 40px;
+}
+
+#gallery h4 {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#atmosphere-pictures {
+  text-align: center;
+  justify-content: space-around;
+}
+
+#atmosphere-pictures img {
+  object-fit: cover;
+  width: 33%;
+  max-width: 90%;
+  min-width: 300px;
+  height: 300px;
+}
+
+#meals {
+  text-align: center;
+  justify-content: space-around;
+}
+
+#meals img {
+  object-fit: cover;
+  width: 33%;
+  max-width: 90%;
+  min-width: 300px;
+  height: 300px;
+}
+
+#livingrooms {
+  text-align: center;
+  justify-content: space-around;
+}
+
+#livingrooms img {
+  object-fit: cover;
+  width: 48%;
+  max-width: 90%;
+  min-width: 400px;
+  height: 500px;
+}
+
+/* billeder side slut */
+
+/* kontakt side start */
+
+#contact-us {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 50px 15px;
+}
+
+#contact-us label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+#contact-us form {
+  display: block;
+}
+
+#contact-us input[type="email"],
+#contact-us input[type="text"]::placeholder {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#contact-us input[type="email"],
+#contact-us input[type="text"] {
+  padding-top: 0px;
+  width: 30%;
+  height: 45px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+#contact-us input[type="submit"] {
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#contact-us textarea {
+  width: 500px;
+  height: 200px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+/* kontakt side slut */
+
+/* Log-ind start */
+
+#login-form {
+  text-align: center;
+  margin: 50px auto 100px;
+}
+
+#login-form label {
+  display: block;
+  padding: 10px;
+}
+
+#login-form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"]::placeholder {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  padding-top: 0px;
+  width: 30%;
+  height: 45px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+#login-form input[type="submit"] {
+  margin-top: 20px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Log-ind slut */
+
+/* footer start */
+
+footer {
+  background-image: url("../img/KBH_Skyline_johannes_lys.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  width: 100%;
+  padding: 50px 0px 175px 0px
+}
+
+#logo {
+  max-width: 250px;
+  height: 300px;
+  margin-right: 92px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+address {
+  max-width: 230px;
+}
+
+address h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+}
+
+#footer-section address ul {
+  margin: 10px 0px 10px 0px;
+  list-style-type: none;
+}
+
+#footer-section address ul li {
+  padding: 10px 0px 10px 0px;
+  font-size: 22px;
+}
+
+#footer-section address ul li a {
+  color: black;
+  text-decoration: none;
+}
+#opening {
+  max-width: 300px;
+  padding: 0 50px;
+}
+#opening h4 {
+  font-family: "Shadows Into Light", cursive;
+  color: rgba(22, 152, 37, 1);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#opening p {
+  font-size: 22px;
+}
+#footer-gallery-div {
+  display: flex;
+  max-width: 345px;
+  flex-wrap: wrap;
+}
+
+#footer-gallery-div h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#footer-gallery-div img {
+  max-width: 100px;
+  margin: 5px;
+}
+
+#newsletter {
+  max-width: 330px;
+  margin-left: 35px;
+}
+
+#newsletter h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+}
+
+#newsletter p {
+  margin-top: 10px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+form {
+  display: block;
+  margin: auto 0;
+}
+
+input[type="email"]::placeholder {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#Email-footer {
+  width: 75%;
+  height: 45px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+#signup-footer {
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 50%;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* footer slut */
+
+/* media screens start */
+@media screen and (max-width: 1000px) {
+  #navbar {
+    display: none;
+  }
+  #dropdown-select-content {
+    display: none;
+  }
+  #select {
+    display: inline-block;
+  }
+
+  nav {
+    text-align: right;
+    height: 80px;
+  }
+
+  ul#select {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  li#select-dropdown {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #select-dropdown {
+    position: relative;
+    display: block;
+  }
+
+  #select-dropdown a {
+    height: auto;
+    top: 0px;
+    padding: 20px 40px 25px 40px;
+  }
+
+  #select-dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: none;
+    position: absolute;
+  }
+
+  #select-dropdown-content a {
+    width: 125px;
+    height: auto;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  ul#select-dropdown-content {
+    text-align: left;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    right: 0px;
+    width: 125px;
+  }
+
+  #select-dropdown:hover #select-dropdown-content {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  #activites-1 section img {
+    max-width: 350px;
+  }
+  .activites-p {
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #activites-1 section img {
+    max-width: 300px;
+  }
+  .activites-p {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #activites-1 section img {
+    max-width: 250px;
+  }
+  .activites-p {
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #headersection {
+    flex-direction: column-reverse;
+  }
+  #white-box1 {
+    flex-direction: column;
+  }
+  #white-box1 img {
+    width: 100%;
+  }
+  #picture-of-kindergarden h2 {
+    font-size: 45px;
+  }
+  #white-box1 article {
+    width: 100%;
+  }
+  #white-box2 {
+    flex-direction: column;
+  }
+  #activites-1{
+    flex-direction: column;
+  }
+  #activites-1{
+    align-items: center;
+  }
+  #activites-1 section{
+    max-width: 350px;
+  }
+  #activites-1 section img {
+    max-width: 100%;
+  }
+  .activites-p {
+    left: 250px;
+  }
+  footer {
+    padding: 50px 0px 150px 0px
+  }
+  #footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo {
+    margin: auto;
+  }
+  #opening{
+    position: relative;
+    right: 15px;
+  }
+  #newsletter{
+    margin: auto;
+  }
+}
+/* media screens slut */
