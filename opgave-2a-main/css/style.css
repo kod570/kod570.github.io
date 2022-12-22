@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* header start */
+
+#header1 {
+  background-color: white;
+}
+
+#header1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* header end */
+
+/* section start */
+
+#section1 {
+  display: flex;
+}
+
+#section1 aside {
+  background-color: #cccccc;
+  padding: 10px 0px 10px 20px;
+  width: 360px;
+}
+
+#section1 aside ul {
+  background-color: #808080;
+  width: 340px;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  list-style-type: none;
+  margin: 30px 0px 15px 30px;
+}
+
+#section1 aside ul li {
+  padding: 2px;
+}
+
+#section1 aside ul li a {
+  padding: 2px;
+  text-decoration: none;
+  color: darkred;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#section1 main {
+  background-color: #f1f1f1;
+  padding: 40px 0px 0px 10px;
+}
+
+#section1 main h1 {
+  font-weight: bold;
+}
+
+#section2 {
+  display: flex;
+}
+
+#section2 div p {
+  padding-top: 5px;
+}
+
+.div1 {
+  width: 50%;
+}
+
+#ol1 {
+  padding: 10px 0px 10px 30px;
+}
+
+#ol1 ul {
+  position: relative;
+  left: 40px;
+}
+
+#ol1 ul ul {
+  position: relative;
+  left: 30px;
+}
+
+.div2 {
+  padding: 40px 0px 30px 0px;
+  width: 50%;
+}
+
+.div2 img {
+  width: 200px;
+}
+
+#table1 {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: start;
+  border-collapse: collapse;
+}
+
+#table1 thead tr th {
+  border: 1px solid gray;
+  padding: 5px;
+  text-align: start;
+  background-color: #a52a2a;
+  color: white;
+}
+
+#table1 tbody tr td {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+/* section end */
+
+/* footer start */
+
+#footer1 {
+  background-color: #a52a2a;
+  padding: 20px;
+}
+
+#footer1 p {
+  text-align: center;
+  color: white;
+}
+
+/* footer end */
