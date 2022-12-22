@@ -26,3 +26,39 @@ img {
  object-fit:cover; 
 }
 
+/* Navigation start */
+ 
+nav {
+  background-color: #fff;
+}
+
+nav div {
+
+}
+ 
+/* Navigation end */ 
+ 
+/* Header start */
+ 
+header {
+  background-color: #fff;
+}
+
+header div {
+  display: flex;
+}
+
+header div ul {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+ 
+/* Header end */  
+
+/* media start */
+ 
+ 
+ 
+/* media end */
+
