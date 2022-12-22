@@ -31,6 +31,12 @@ img {
 nav {
   background-color: #fff;
 }
+
+nav div h1 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 3rem;
+}
  
 /* Navigation end */ 
  
