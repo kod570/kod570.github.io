@@ -33,9 +33,11 @@ nav {
 }
 
 nav div h1 {
-  text-align: center;
-  margin: 20px auto;
   font-size: 3rem;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
  
 /* Navigation end */ 
