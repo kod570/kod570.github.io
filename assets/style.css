@@ -55,6 +55,10 @@ header div ul li {
 
 }
 
+header div ul li p {
+  text-align: center;
+}
+
 header div ul li a {
 
 }
