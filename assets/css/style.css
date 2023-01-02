@@ -44,7 +44,7 @@ nav div {
 }
 
 nav div a {
-  font-size: 2rem;
+  font-size: 2.6rem;
   color: #000;
 }
 
@@ -55,6 +55,10 @@ nav div ul {
 
 nav div ul li {
   padding: 0px 10px 0px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 0px 5px 0px 5px;
+  background-color: #d4d4d4;
 }
 
 nav div ul li a {
@@ -148,6 +152,9 @@ footer div p {
 } 
  
 @media screen and (max-width: 480px) {
+  nav div a {
+    font-size: 2.2rem;
+  }
   nav div ul li a {
     font-size: 1.8rem;
   }
