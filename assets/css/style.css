@@ -115,9 +115,40 @@ header div ul li a {
  
 /* Header end */  
 
+/* footer start */
+ 
+footer {
+  color: #fff;
+}
+
+footer div {
+  margin: 0px 20px 20px 20px;
+}
+ 
+footer div p {
+  color: black;
+  font-size: 1.8rem;
+}
+
+/* footer end *
+
 /* media start */
  
+@media screen and (max-width: 768px) {
+  .flex-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  header div ul {
+    width: 100%;
+  }
+} 
  
+@media screen and (max-width: 480px) {
+  header div ul li a {
+    font-size: 1.6rem;
+  }
+}
  
 /* media end */
 
