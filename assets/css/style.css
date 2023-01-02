@@ -30,11 +30,29 @@ img {
 /* Navigation start */
  
 nav {
-  background-color: #fff;
+  background-color: darkgrey;
 }
 
 nav div {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5vh;
+  margin: 0px 20px 0px 20px;
+}
+
+nav div ul {
+  margin: 0;
+  display: flex;
+}
+
+nav div ul li {
+  padding: 0px 10px 0px 10px;
+}
+
+nav div ul li a {
+  font-size: 2rem;
+  color: #000;
 }
  
 /* Navigation end */ 
