@@ -41,6 +41,11 @@ nav div {
   margin: 0px 20px 0px 20px;
 }
 
+nav div a {
+  font-size: 2rem;
+  color: #000;
+}
+
 nav div ul {
   margin: 0;
   display: flex;
