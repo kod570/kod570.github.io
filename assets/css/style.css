@@ -33,12 +33,8 @@ nav {
   background-color: #fff;
 }
 
-nav div h1 {
-  font-size: 3rem;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav div {
+  
 }
  
 /* Navigation end */ 
@@ -51,6 +47,14 @@ header {
 
 header div {
   display: flex;
+}
+
+header div h1 {
+  font-size: 3rem;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header div ul {
