@@ -34,7 +34,7 @@ nav {
 }
 
 nav div {
-  
+
 }
  
 /* Navigation end */ 
@@ -46,7 +46,7 @@ header {
 }
 
 header div {
-  display: flex;
+  background-color: #fff;
 }
 
 header div h1 {
@@ -55,6 +55,10 @@ header div h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-wrapper {
+  display: flex;
 }
 
 header div ul {
