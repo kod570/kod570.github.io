@@ -34,11 +34,13 @@ nav {
 }
 
 nav div {
+  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 5vh;
-  margin: 0px 20px 0px 20px;
+  margin: 0 auto;
+  padding: 0px 15px 0px 15px;
 }
 
 nav div a {
@@ -78,6 +80,7 @@ header div h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .flex-wrapper {
@@ -145,6 +148,12 @@ footer div p {
 } 
  
 @media screen and (max-width: 480px) {
+  nav div ul li a {
+    font-size: 1.8rem;
+  }
+  header div ul li {
+    margin: 15px 10px 15px 10px;
+  }
   header div ul li a {
     font-size: 1.6rem;
   }
