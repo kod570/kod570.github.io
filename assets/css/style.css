@@ -100,7 +100,7 @@ nav div ul li a:hover {
 }
 
 #faq-fomular div header h4 {
-  padding: 0px 10px 0px 10px;
+  margin: 0px 10px 0px 10px;
   font-size: 2rem;
 }
 
@@ -143,13 +143,18 @@ nav div ul li a:hover {
 }
 
 #faq-fomular .active header {
-  border-bottom: 10px solid #E7BE7E;
-    border-left: 2px solid #435061;
-    border-right: 2px solid #435061;
+  border-left: 4px solid #435061;
+  border-right: 4px solid #435061;
+  background-color: #435061;
+  border-bottom: 2px solid #E7BE7E;
 }
 
 .active h4 {
   color: #E7BE7E;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: grey;
 }
 
 #faq-fomular .active button {
@@ -259,6 +264,9 @@ footer div p {
   }
   header div ul li a {
     font-size: 1.6rem;
+  }
+  #faq-fomular .active article {
+    width: 100%;
   }
 }
  
