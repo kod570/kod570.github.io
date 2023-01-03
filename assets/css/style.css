@@ -265,8 +265,17 @@ footer div p {
   header div ul li a {
     font-size: 1.6rem;
   }
+  #faq-fomular div header h4 {
+    font-size: 1.6rem;
+  }
   #faq-fomular .active article {
     width: 100%;
+  }
+  #faq-fomular div header button {
+    max-width: 100px;
+  }
+  footer div p {
+    font-size: 1.6rem;
   }
 }
  
