@@ -177,6 +177,7 @@ nav div ul li a:hover {
 
 header {
   background-color: #fff;
+  margin-top: 50px;
 }
 
 header div {
@@ -189,7 +190,6 @@ header div h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 header div ul {
