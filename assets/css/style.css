@@ -241,10 +241,6 @@ footer div p {
 /* media start */
  
 @media screen and (max-width: 768px) {
-  .flex-wrapper {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
   header div ul {
     width: 100%;
   }
@@ -263,13 +259,13 @@ footer div p {
   header div ul li a {
     font-size: 1.6rem;
   }
-  #faq-fomular div header h4 {
+  #faq-fomular div section h4 {
     font-size: 1.6rem;
   }
-  #faq-fomular .active article {
+  #faq-fomular .active div {
     width: 100%;
   }
-  #faq-fomular div header button {
+  #faq-fomular div section button {
     max-width: 100px;
   }
   footer div p {
