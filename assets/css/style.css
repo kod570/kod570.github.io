@@ -92,6 +92,10 @@ header div h1 {
   align-items: center;
 }
 
+#forside div h1 {
+  margin-bottom: 50px;
+}
+
 header div ul {
   width: 100%;
   display: flex;
