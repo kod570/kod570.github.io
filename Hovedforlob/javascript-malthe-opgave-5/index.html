@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>javascript-malthe-opgave-5</title>
+</head>
+<body>
+    <div id="opg-1">
+    <h1>Sodavands-brands</h1>
+    <ul id="sodavand"></ul>
+    </div>
+
+    <div id="opg-2">
+        <form name="Form" action="" onsubmit="return false;" required>
+        <input id="addtolist" type="text" name="first">
+        <input id="addtolist1" type="text" name="secound">
+        <input id="addtolist2" type="text" name="thrid">
+        <input id="addtolist3" type="text" name="fourth">
+        <input onclick="validateForm();" type="submit" value="place">
+        </form>
+        <ul id="basket"></ul>
+    </div>
+
+    <div id="opg-3">
+        <form action="" onsubmit="return false;">
+        <input type="text" name="" id="remove">
+        <input type="submit" value="submit" onclick="removefromlist();">
+        </form>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

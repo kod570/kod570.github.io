@@ -1,0 +1,104 @@
+*,*::before,*::after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html {
+font-size: 62.5%;
+}
+
+h1 {
+    color: tomato;
+    background-color: aqua;
+    font-size: 3rem;
+    text-align: center;
+}
+
+div {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+div ul  {
+    background-color: aqua;
+    padding: 20px 5px 5px 5px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+ul li {
+    font-size: 2rem;
+}
+
+#item-1{
+    order: -1;
+    color:green;
+}
+
+#item-2{
+    order: 0;
+    color:green;
+}
+
+#item-3{
+    order: 1;
+    color:green;
+}
+
+#item-4{
+    order: 2;
+    color:green;
+}
+
+#item-5{
+    order: 3;
+    color:green;
+}
+
+#opg-1 {
+    padding: 25px 0px 25px 0px;
+    background-color: aqua;
+}
+
+#opg-2 {
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    background-color: aqua;
+    padding: 75px 0px 75px 0px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+#opg-3 {
+    padding: 25px 0px 25px 0px;
+    background-color: aqua;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+#basket {
+    display: flex;
+    flex-direction: column;
+}
+
+#basket1 {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form input{
+    padding: 5px;
+}
+
+input {
+    margin-left: 5px;
+}
