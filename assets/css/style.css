@@ -75,106 +75,6 @@ nav div ul li a:hover {
  
 /* Header start */
  
-#faq-fomular {
-  padding: 50px 20px 50px 20px;
-}
-
-#faq-fomular div {
-  margin: 20px auto;
-  max-width: 1300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#faq-fomular div header{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  align-items: center;
-  margin: 10px 0px 10px 0px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 2px solid #CFCFCF;
-}
-
-#faq-fomular div header h4 {
-  margin: 0px 10px 0px 10px;
-  font-size: 2rem;
-}
-
-#faq-fomular div header button {
-  margin-right: 10px;
-  padding: 10px 30px 10px 30px;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#faq-fomular div header button:hover {
-  background-color: darkgray;
-}
-
-#faq-fomular div article{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: flex-start;
-}
-
-#faq-fomular div article h5 {
-  padding: 0px 15px 0px 15px;
-}
-
-#faq-fomular div article p {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 0px 15px 0px 15px;
-}
-
-#faq-fomular div article {
-  display: none;
-}
-
-.active {
-  background-color: #435061;
-  border-radius: 10px;
-}
-
-#faq-fomular .active header {
-  border-left: 4px solid #435061;
-  border-right: 4px solid #435061;
-  background-color: #435061;
-  border-bottom: 2px solid #E7BE7E;
-}
-
-.active h4 {
-  color: #E7BE7E;
-  border: 2px solid;
-  border-radius: 10px;
-  padding: 5px;
-  background-color: grey;
-}
-
-#faq-fomular .active button {
-  background-color: #E7BE7E;
-  border: 1px solid white;
-}
-
-.active h5 {
-  color: white;
-}
-
-.active article p {
-  color: white;
-}
-
-#faq-fomular .active article{
-  width: 100%;
-  display: block;
-}
-
 header {
   background-color: #fff;
   margin-top: 50px;
@@ -219,6 +119,104 @@ header div ul li a {
   border-radius: 10px;
   background-color: rgb(76 118 144);
   color: white;
+}
+
+#faq-fomular {
+  padding: 50px 20px 50px 20px;
+}
+
+#faq-fomular div {
+  margin: 20px auto;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq-fomular div section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 2px solid #CFCFCF;
+}
+
+#faq-fomular div section h4 {
+  margin: 0px 10px 0px 10px;
+  font-size: 2rem;
+}
+
+#faq-fomular div section button {
+  margin-right: 10px;
+  padding: 10px 30px 10px 30px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#faq-fomular div section button:hover {
+  background-color: darkgray;
+}
+
+#faq-fomular div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  display: none;
+}
+
+#faq-fomular div article h4 {
+  padding: 0px 15px 0px 15px;
+}
+
+#faq-fomular div article p {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+.active {
+  background-color: #435061;
+  border-radius: 10px;
+}
+
+#faq-fomular .active section {
+  border-left: 4px solid #435061;
+  border-right: 4px solid #435061;
+  background-color: #435061;
+  border-bottom: 2px solid #E7BE7E;
+}
+
+.active h4 {
+  color: #E7BE7E;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: grey;
+}
+
+#faq-fomular .active button {
+  background-color: #E7BE7E;
+  border: 1px solid white;
+}
+
+.active h5 {
+  color: white;
+}
+
+.active article p {
+  color: white;
+}
+
+#faq-fomular .active div{
+  width: 100%;
+  display: block;
+  background-color: #435061;
 }
  
 /* Header end */  

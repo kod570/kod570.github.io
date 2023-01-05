@@ -1,5 +1,5 @@
 
-let faqs = document.querySelectorAll(".faq-item header button");
+let faqs = document.querySelectorAll(".faq-item section button");
 let i;
 
 for (let i = 0; i < faqs.length; i++) {
