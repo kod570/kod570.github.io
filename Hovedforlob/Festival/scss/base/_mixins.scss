@@ -1,0 +1,15 @@
+@mixin sm-s {
+    @media (min-width: 500px) {
+
+    }
+}
+@mixin md-s {
+    @media (min-width: 810px) {
+        
+    }
+}
+@mixin lg-s {
+    @media (min-width: 960px) {
+        
+    }
+}

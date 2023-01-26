@@ -1,0 +1,12 @@
+{
+  "name": "festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prut": "sass scss:css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
