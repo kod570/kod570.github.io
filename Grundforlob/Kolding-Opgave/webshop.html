@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Webshop</title>
+</head>
+<body>
+    <!-- nav start  -->
+    <nav id="navigation">
+        <section>
+        <div>
+            <a class="text-transform" href="#"><img src="img/logo-navigation.png" alt="Logo-navigation"></a>
+        </div>
+        <ul id="menu">
+            <li><a title="oplevelser" class="text-transform" href="Oplevelser.html">oplevelser</a></li>
+            <li><a title="overnatning" class="text-transform" href="Overnatning.html">overnatning</a></li>
+            <li><a title="mad & drikke" class="text-transform" href="Mad-og-drikke.html">mad & <span class="text-transform">drikke</span></a></li>
+            <li><a title="events" class="text-transform" href="Events.html">events</a></li>
+            <li><a title="planlæg din tur" class="text-transform" href="Planlæg-din-tur.html">planlæg din tur</a></li>
+            <li><a title="search" class="search" href="#"><i class="fas fa-search"></i></a></li>
+        </ul>
+        </section>
+    </nav>
+    <!-- nav end  -->
+    <!-- header start -->
+        <header id="subpage-header">
+            <figure id="header-figure">
+                <img src="img/headertest.png" alt="">
+                <figcaption><h1>Kolding Shoppen</h1></figcaption>
+            </figure>
+    </header>
+    <!-- header end  -->
+    <!-- middle start  -->
+    <section id="buybasket">
+         
+        <figure>
+         <input id="buyicon" type="checkbox">
+         <label for="buyicon">
+        <img src="img/buybasket.png" alt="buybasket"></label>
+        <figcaption id="basket">
+            <h1>Indkøbsvogn</h1>
+            <p id="items"></p><img onclick="remove()" id="cross1" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items2"></p><img onclick="remove2()" id="cross2" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items3"></p><img onclick="remove3()" id="cross3" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items4"></p><img onclick="remove4()" id="cross4" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items5"></p><img onclick="remove5()" id="cross5" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items6"></p><img id="cross6" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items7"></p><img id="cross7" src="img/cross.png" alt="crossicon"> <br>
+            <p id="items8"></p><img id="cross8" src="img/cross.png" alt="crossicon"> <br>
+            <p id="sum">Du har ikke købt noget endnu</p>
+        </figcaption>
+    </figure>
+        
+    </section>
+    <section id="webshop-container-grid">
+        <figure id="shopbox1">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop1" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping1()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox2">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop2" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping2()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox3">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop3" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping3()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox4">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop4" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping4()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox5">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop5" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping5()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox6">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop6" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping6()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox7">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop7" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping7()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+        <figure id="shopbox8">
+            <img src="img/test2.png" alt="test-image">
+            <figcaption>
+                <h3>Pris</h3>
+                <p>100 kr</p>
+                <input id="shop8" type="number" placeholder="Indtast antal"> <br>
+                <input onclick="shopping8()" type="submit" value="Læg i kurven">
+            </figcaption>
+        </figure>
+    </section>
+    <!-- middle end  -->
+    <footer>
+        <section>
+            <div id="footer-top">
+                <div>
+                <h3>Følg os på</h3> 
+            </div>
+                
+            <div>
+                <ul id="footer-social">
+    
+                <li><a href="#"><img class="icon" src="img/facebook-brands.svg" alt="facebook"></a></li>
+                <li><a href="#"><img class="icon" src="img/youtube-brands.svg" alt="youtube"></a></li>
+                <li><a href="#"><img class="icon" src="img/twitter-brands.svg" alt="twitter"></a></li>
+                <li><a href="#"><img class="icon" src="img/instagram-brands.svg" alt="instagram"></a></li>
+    
+                </ul>
+    
+            </div>
+        </section>
+    
+        <section id="footer-mid-container">
+    
+            <div id="footer-mid">
+    
+                <div>
+    
+                <h3>VisitKolding</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br> Doloribus dolorem voluptatum culpa. 
+                    <br> Cumque tenetur dolor recusandae eligendi officiis amet atque?</p>
+                </div>
+    
+    
+                <section id="footer-links">
+                    <div>
+    
+                        <h4>Nyttige links</h4>
+    
+                        <ul>
+                            <li><a href="Kolding-som-designby.html">Kolding som designby.</a></li>
+                            <li><a href="Sevaerdigheder.html">Seværdigheder.</a></li>
+                            <li><a href="Trafik.html">Trafik.</a></li>
+                            <li><a href="Historiskebygninger.html">Historiske bygninger.</a></li> 
+                         </ul>
+                     </div>
+     
+                     <div>
+     
+                         <h4>Nyttige links</h4>
+     
+                         <ul>
+                             <li><a href="Natteliv.html">Natteliv.</a></li>
+                             <li><a href="Geografik-have.html">Geografik have.</a></li>
+                             <li><a href="Boerneliv.html">Børneliv.</a></li>
+                             <li><a href="Havnen.html">Havnen.</a></li> 
+                         </ul>
+                     </div>
+     
+                     <div>
+                     
+     
+                         <h4>Nyttige links</h4>
+     
+                         <ul>
+                             <li><a href="#">Link1</a></li>
+                             <li><a href="#">Link2</a></li>
+                             <li><a href="#">Link3</a></li>
+                             <li><a href="#">Link4</a></li>  
+                         </ul>
+                    </div>
+                </section>
+                 
+    
+            </div>
+        </section>
+    
+        <section id="footer-bottom-container">
+    
+            <div id="footer-bottom">
+    
+                <div>
+    
+                <p>&copy 2021 VisitKolding All Rights Reserved.</p>
+            </div>
+    
+                <div>
+    
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            
+            </div>
+    
+            </div>
+    
+    
+    
+        </section>
+        
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
